@@ -1,0 +1,7 @@
+body{
+  font-size: 1em;/*размер шрифта*/
+  line-height:20px;/*высота строки  */
+  color: #000000, #727578, #ffffff, #666666, #383838;/*цвет шрифта*/
+  font-weight:medium;/*жирность шрифта*/
+  font-family: Roboto;/* Гарнитура текста */  
+}
