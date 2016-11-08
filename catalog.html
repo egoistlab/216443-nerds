@@ -7,31 +7,149 @@
   </head>
   <body>
 
-<!-- header-->
+    <!-- header-->
 
-<header class="main-header">
-  <div class="index-logo">
-    <img src="./img/nerds-logo.png" width="165" height="65" alt="Нёрдс">
-  </div>
-  <div class="container">
-    <nav class="main-navigation">
-      <ul>
-          <li>
+    <header class="main-header">
+      <div class="index-logo">
+        <a href="website.ru">
+          <img src="./img/nerds-logo.png" width="165" height="65" alt="Нёрдс">
+        </a>
+      </div>
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
               <a href="#">Студия</a>
-          </li>
-          <li>
-            <a href="#">Клиенты</a>
-          </li>
-          <li>
-            <a href="#">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
+            </li>
+            <li>
+              <a href="#">Клиенты</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Корзина</a>
+          <h1>Магазин готовых шаблонов</h1>
+        </div>
+      </div>
+    </header>
+
+    <!-- радиокнопки-->
+
+    <div class="shorting">
+      <h2>Сортировать:</h2>
+      <ul>
+        <li>по цене</li>
+        <li>по типу</li>
+        <li>по названию</li>
+        <li>
+          <i></i>
+        </li>
+        <li>
+          <i></i>
+        </li>
+
       </ul>
-    </nav>
-    <div class="user-block">
-      <a class="login" href="#">Корзина</a>
+      <img src="./img-sedona.jpg" width="360" height="576" alt="Седона">
+      <img src="./img-pink.jpg" width="360" height="576" alt="Пинк">
+      <img src="./img-barbershop.jpg" width="360" height="576" alt="Барбер-шоп">
+      <img src="./img-mishka.jpg" width="360" height="576" alt="Мишка">
+      <img src="./img-aplus.jpg" width="360" height="576" alt="Аплус">
+      <img src="./img-kvast.png" width="360" height="576" alt="Кваст">
+      <a class="btn" href="#">1</a>
+      <a class="btn" href="#">2</a>
+      <a class="btn" href="#">3</a>
+      <a class="btn" href="#">Следующая</a>
+
     </div>
+
+    <div class="filter">
+      <div class="range"></div>
+
+      <form><div class="setka" <h2>Сетка:</h2>
+      <div class="form-group">
+        <input type="radio" name="name" value="Адаптивная" id="ch1">
+        <label for=ch1>Адаптивная</label>
+      </div>
+      <div class="form-group">
+        <input type="radio" name="name" value="Фиксированная" id="ch2">
+        <label for=ch2>Фиксированная</label>
+      </div>
+      <div class="form-group">
+        <input type="radio" name="name" value="Резиновая" id="ch3">
+        <label for=ch3>Резиновая</label>
+      </div>
+
+    <div class="features" <h2>Сетка:</h2>
+    <div class="form-group">
+      <input type="checkbox" name="name" value="Слайдер" id="ch4">
+      <label for="ch4">Слайдер</label>
+
+      <input type="checkbox" name="name" value="Блок преимуществ" id="ch5">
+      <label for="ch5">Блок преимуществ</label>
+
+      <input type="checkbox" name="name" value="Новости" id="ch6">
+      <label for="ch6">Новости</label>
+
+      <input type="checkbox" name="name" value="Галерея" id="ch7">
+      <label for="ch7">Галерея</label>
+
+      <input type="checkbox" name="name" value="Корзина" id="ch8">
+      <label for="ch8">Корзина</label>
+
+      <input type="submit" value="Показать">
+    </form>
   </div>
-</header>
+
+  <div class="index-content">
+    <div class="index-content-left">
+      <h2 class="index-content-title" NERDS DISIGN STUDIO></h2>
+      <p>
+        <p>
+          <b>NЁRDS DISIGN STUDIO</b>
+        </p>
+
+        <p>
+          191186,Санкт-Петербург,<br>
+          ул.Большая Конюшечная,д.19/8<br>
+        </p>
+        <p>
+          тел.+7(812)275-75-75<br>
+        </p>
+        <a class="btn" href="#">Напишите Нам</a>
+      </div>
+    </div>
+
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-social">
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <p>
+            <b>Давайте дружить,это выгодно!</b>
+          </p>
+
+          <p>Скидка 10% для друзей из социальных сетей</p>
+        </section>
+      </div>
+    </footer>
+
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <h3>Напишите нам</h3>
+      <label>Ваше имя</label><br/>
+      <input type="text" name="login"><br/>
+      <label>Ваш e-mail</label><br/>
+      <input type="text" name="login"><br/>
+      <label>Текст письма</label><br/>
+      <textarea name="message" colls="30" rows="10"></textarea><br/>
+
+      <input type="submit" value="Отправить">
+    </form>
+  </body>
+</html>
